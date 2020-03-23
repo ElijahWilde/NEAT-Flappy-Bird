@@ -1,11 +1,5 @@
-"""
-The classic game of flappy bird. Make with python
-and pygame. Features pixel perfect collision using masks :o
+# this file will create the game of flappy bird and train an AI to play it
 
-Date Modified:  Jul 30, 2019
-Author: Tech With Tim
-Estimated Work Time: 5 hours (1 just for that damn collision)
-"""
 import pygame
 import random
 import os
@@ -134,8 +128,8 @@ class Pipe():
     """
     represents a pipe object
     """
-    GAP = 200
-    VEL = 5
+    GAP = 175
+    VEL = 10
 
     def __init__(self, x):
         """
